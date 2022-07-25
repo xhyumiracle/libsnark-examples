@@ -4,6 +4,7 @@
 #include <libsnark/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/r1cs_gg_ppzksnark.hpp>
 
 using namespace libsnark;
+using namespace std;
 
 /**
  * The code below provides an example of all stages of running a R1CS GG-ppzkSNARK.

@@ -53,3 +53,22 @@ target_include_directories(
   ${DEPENDS_DIR}/libsnark
   ${DEPENDS_DIR}/libsnark/depends/libfqfft
 )
+
+
+add_executable(
+  ifelse
+
+  ifelse.cpp
+)
+target_link_libraries(
+  ifelse
+
+  snark
+)
+target_include_directories(
+  ifelse
+
+  PUBLIC
+  ${DEPENDS_DIR}/libsnark
+  ${DEPENDS_DIR}/libsnark/depends/libfqfft
+)

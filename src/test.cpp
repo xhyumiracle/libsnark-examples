@@ -72,5 +72,6 @@ int main () {
     cout << "Auxiliary (private) input: " << pb.auxiliary_input() << endl;
     cout << "Verification status: " << verified << endl;
 
+    cout << "xhyumain111" << endl;
     return 0;
 }
