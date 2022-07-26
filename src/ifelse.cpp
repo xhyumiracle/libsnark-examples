@@ -11,7 +11,6 @@ def f(x, y, z):
   if x == 1:
     return y*z
   return 2y - z
-}
 
 Polynomial Constraints:
 (x-1)*b=0
