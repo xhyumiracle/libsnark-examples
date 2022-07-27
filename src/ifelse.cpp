@@ -43,7 +43,6 @@ int main () {
     // Define variables
     pb_variable<FieldT> x, y, z;
     pb_variable<FieldT> sym1, sym2, sym3;
-    // pb_variable<FieldT> z;
     pb_variable<FieldT> b, t, t1, t2;
     pb_variable<FieldT> out;
     pb_variable<FieldT> t1max, t2min;
@@ -62,7 +61,6 @@ int main () {
     t2.allocate(pb, "t2");
     t1max.allocate(pb, "t1max");
     t2min.allocate(pb, "t2min");
-    // sym1.allocate(pb, "sym1");
     sym1.allocate(pb, "sym1");
     sym2.allocate(pb, "sym2");
     sym3.allocate(pb, "sym3");
@@ -75,10 +73,6 @@ int main () {
     // Add R1CS constraints to protoboard
 
     // add comparision constrains
-
-    // x.allocate(pb, "x");
-    // max.allocate(pb, "max");
-    
     pb.val(t1max)= 1;
     pb.val(t2min)= 1;
 
